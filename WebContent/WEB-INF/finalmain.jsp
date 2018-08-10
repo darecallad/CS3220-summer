@@ -19,9 +19,10 @@
 	<tr>
 		<td><a href="NewFolder${addString }">New Folder</a></td><td></td>
 		<td><a href="Upload${addString }">Upload File</a></td>
+		<td><a href='SearchFile'>Search File</a></td>
 	</tr>
 	<tr></tr>
-	
+
 	<tr>
 	<td><c:if test="${backString != null }"><a href="finalmain${backString }">Back</a></c:if></td>
 	</tr>

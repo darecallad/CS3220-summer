@@ -13,8 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.Statement;
+import java.sql.*;
 
 /**
  * Servlet implementation class DeleteFolder
@@ -41,7 +40,7 @@ public class DeleteFolder extends HttpServlet {
 
 		{
     
-			String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu29";
+            String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu29?serverTimezone=UTC";
 			String username = "cs3220stu29";
 			String password = "!wCk0F.s";
 
